@@ -3,16 +3,10 @@
   "deploy": {
     "runtime": "V2",
     "multiRegionConfig": {
-      "us-east4": {
+      "localhost": {
         "numReplicas": 1
       },
-      "us-west1": {
-        "numReplicas": 1
-      },
-      "europe-west4": {
-        "numReplicas": 1
-      },
-      "asia-southeast1": {
+      "notsolocalhost": {
         "numReplicas": 1
       }
     }
