@@ -5,9 +5,6 @@
     "multiRegionConfig": {
       "localhost": {
         "numReplicas": 1
-      },
-      "notsolocalhost": {
-        "numReplicas": 1
       }
     }
   }
